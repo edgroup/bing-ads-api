@@ -1,0 +1,12 @@
+{
+	"name": "ed/bing-ads-api",
+	"description": "Bing Ads API Version 9 (PHP)",
+	"keywords": ["bing", "api"],
+	"type": "library",
+	"license": "Apache-2.0",
+	"autoload": {
+		"classmap": [
+			"PHP/bingads"
+		]
+	}
+}
