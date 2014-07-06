@@ -54,7 +54,7 @@ Class ClientProxy
 		return $thisClient;
 	}
 	
-	public function ConstructWithAccountId($wsdl, $username, $password, $token, $accountId, $authenticationToken)
+	public static function ConstructWithAccountId($wsdl, $username, $password, $token, $accountId, $authenticationToken)
 	{
 		$thisClient = new ClientProxy($wsdl);
 		
